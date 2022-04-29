@@ -1,29 +1,13 @@
-.body {
+body {
     background-color: #CC6857;
-    display:block;
-    margin:auto;
     text-align: center;
 }
 
+/* Menú principal */
 header {
     font-size: 17px;
     background-color: #BF7E96;
-}
-.main_conoceme {
-    background-color: #fff;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-/* Menú principal */
-.menu nav{
-    list-style: none;
-}
-
-.menu div{
-    display: inline; 
-    width: 100%;
+    margin: 10px;
 }
 
 .menu div a {
@@ -31,16 +15,34 @@ header {
     padding: 50px;
 }
 
-.logo{
-    width: 50vw;
-    height: 50vw;
-    overflow: hidden;
-    display:block;
-    margin:auto;
+img {
+    border-radius: 15px;
 }
 
-img {
-    border-radius: 20px;
+/* Menú secundario */
+.menu-secundario {
+    display: inline-block;
+}
+
+/* Menú footer */
+footer {
+    color: black;
+    background-color: #BF7E96; 
+    padding: 50px;
+    text-align: center;
+}
+
+.color_celeste {
+    color: cornflowerblue;
+}
+
+.menu2 {
+    list-style: none;
+}
+
+.menu2 li {
+    display: inline;
+    margin: 10px;
 }
 
 .main_conoceme {

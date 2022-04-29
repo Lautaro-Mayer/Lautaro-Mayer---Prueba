@@ -1,0 +1,144 @@
+@charset "UTF-8";
+.body {
+  background-color: #CC6857;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  font-size: 17px;
+  background-color: #BF7E96;
+}
+
+.main_conoceme {
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+/* Menú principal */
+.menu nav {
+  list-style: none;
+}
+
+.menu div {
+  display: inline;
+  width: 100%;
+}
+
+.menu div a {
+  text-decoration: none;
+  padding: 50px;
+}
+
+.logo {
+  width: 50vw;
+  height: 50vw;
+  overflow: hidden;
+  display: block;
+  margin: auto;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.main_conoceme {
+  font-size: 20px;
+}
+
+#tips {
+  background-color: #fff;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.5;
+  transition: 0.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.body-contacto {
+  height: 100%;
+  width: 100%;
+}
+
+.contacto {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #fffbee;
+}
+
+.contacto_imagen1 {
+  height: 500;
+  width: 500;
+}
+
+.contacto_imagen2 {
+  width: 100%;
+}
+
+.contacto_lado-derecho {
+  padding: 50px;
+}
+
+.contacto_titulo {
+  font-size: 50px;
+  font-weight: 100;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+
+.contacto_label {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.contacto_input {
+  padding: 10px;
+  border-bottom: 1px solid #121212;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: #121212;
+  background-color: transparent;
+}
+
+.contacto_boton-enviar {
+  padding: 18px;
+  background-color: #121212;
+  border-radius: 20px;
+  color: #f2f2f2;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contacto_boton-enviar:hover {
+  background-color: #2e2e2e;
+}
+
+.transition {
+  height: 600;
+  width: 600;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.transition:hover {
+  height: 700;
+  width: 700;
+}
+/*# sourceMappingURL=style1.css.map */
