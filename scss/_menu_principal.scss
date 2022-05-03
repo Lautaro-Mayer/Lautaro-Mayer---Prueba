@@ -1,0 +1,22 @@
+/* Menú principal */
+.menu nav{
+    list-style: none;
+
+    div {
+        display: inline; 
+        width: 100%;
+        
+        a {
+            text-decoration: none;
+            padding: 50px;
+        }
+    }
+}
+
+.logo{
+    width: 50vw;
+    height: 50vw;
+    overflow: hidden;
+    display:block;
+    margin:auto;
+}

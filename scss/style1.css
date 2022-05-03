@@ -6,16 +6,9 @@
   text-align: center;
 }
 
-header {
+.body header {
   font-size: 17px;
   background-color: #BF7E96;
-}
-
-.main_conoceme {
-  background-color: #fff;
-  padding: 5px;
-  margin-bottom: 10px;
-  border-radius: 10px;
 }
 
 /* Menú principal */
@@ -23,12 +16,12 @@ header {
   list-style: none;
 }
 
-.menu div {
+.menu nav div {
   display: inline;
   width: 100%;
 }
 
-.menu div a {
+.menu nav div a {
   text-decoration: none;
   padding: 50px;
 }
@@ -41,6 +34,13 @@ header {
   margin: auto;
 }
 
+.main_conoceme {
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
 img {
   border-radius: 20px;
 }
@@ -50,10 +50,10 @@ img {
 }
 
 #tips {
-  background-color: #fff;
   padding: 5px;
   margin-bottom: 10px;
-  border-radius: 10px;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
 * {

@@ -1,42 +1,19 @@
-.body {
-    background-color: #CC6857;
-    display:block;
-    margin:auto;
-    text-align: center;
+@import "header";
+@import "menu_principal";
+
+$borde_imagen: 20px;
+$padding: 5px;
+$margin-bottom: 10px;
+
+@mixin tamaño($padding, $margin-bottom) {
+    padding: $padding;
+    margin-bottom: $margin-bottom;
 }
 
-header {
-    font-size: 17px;
-    background-color: #BF7E96;
-}
 .main_conoceme {
+    @include tamaño($padding, $margin-bottom);
     background-color: #fff;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-/* Menú principal */
-.menu nav{
-    list-style: none;
-}
-
-.menu div{
-    display: inline; 
-    width: 100%;
-}
-
-.menu div a {
-    text-decoration: none;
-    padding: 50px;
-}
-
-.logo{
-    width: 50vw;
-    height: 50vw;
-    overflow: hidden;
-    display:block;
-    margin:auto;
+    border-radius: $borde_imagen;
 }
 
 img {
@@ -48,10 +25,9 @@ img {
 }
 
 #tips {
+    @include tamaño($padding, $margin-bottom);
     background-color: #fff;
-    padding: 5px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: $borde_imagen;
 }
 
 *{
@@ -100,8 +76,6 @@ img {
 }
 
 .contacto_input {
-
-
     padding: 10px;
     border-bottom: 1px solid #121212;
     border-top: none;
@@ -114,7 +88,7 @@ img {
 .contacto_boton-enviar {
     padding: 18px;
     background-color: #121212;
-    border-radius: 20px;
+    border-radius: $borde_imagen;
     color: #f2f2f2;
     font-weight: 600;
     font-size: 18px;
@@ -133,4 +107,8 @@ img {
 .transition:hover {
     height: 700;
     width: 700;
+}
+
+@media (max-width: 768px) {
+    
 }
